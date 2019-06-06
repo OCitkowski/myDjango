@@ -1,0 +1,17 @@
+git status
+git status -s
+
+git log
+
+
+git rm PROJECTS.md индексація на виделення
+$ git mv стара_назва нова_назва
+
+$ git branch develop /створити вітку
+$ git checkout develop /перейти на вітку
+
+$ git checkout -b develop / створити і перейти
+
+$ git checkout master / перехід на мастер
+$ git merge hotfix / злив з вітки hotfix
+$ git branch -d hotfix /Deleted branch hotfix
