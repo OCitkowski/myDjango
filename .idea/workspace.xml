@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76466768-09db-48ec-80a1-8f3d2722c063" name="Default Changelist" comment="First step/&#10;add the django/">
-      <change afterPath="$PROJECT_DIR$/Help/git" afterDir="false" />
+    <list default="true" id="76466768-09db-48ec-80a1-8f3d2722c063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Help/Linux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/loser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/loser/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/loser/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/loser/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help/django" beforeDir="false" afterPath="$PROJECT_DIR$/Help/django" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help/git" beforeDir="false" afterPath="$PROJECT_DIR$/Help/git" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,33 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Help/Python">
+        <entry file="file://$PROJECT_DIR$/loser/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Help/Venv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Help/django">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -48,9 +33,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Help/git">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1100" />
           </provider>
         </entry>
       </file>
@@ -70,6 +62,7 @@
         <option value="$PROJECT_DIR$/Venv" />
         <option value="$PROJECT_DIR$/Help/Python" />
         <option value="$PROJECT_DIR$/Help/Venv" />
+        <option value="$PROJECT_DIR$/Help/Linux" />
         <option value="$PROJECT_DIR$/Help/django" />
         <option value="$PROJECT_DIR$/Help/git" />
       </list>
@@ -92,11 +85,6 @@
             <path>
               <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="myDjango" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="Help" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559805458367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start develop.">
+      <created>1559807221485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559807221485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -200,39 +195,59 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First step/&#10;add the django/" />
-    <option name="LAST_COMMIT_MESSAGE" value="First step/&#10;add the django/" />
+    <MESSAGE value="Start develop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Start develop." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Venv" />
-    <entry file="file://$PROJECT_DIR$/Help/Python">
+    <entry file="file://$PROJECT_DIR$/Help/django">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Help/Venv">
+    <entry file="file://$PROJECT_DIR$/Help/Python">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Help/git">
+    <entry file="file://$PROJECT_DIR$/Help/Linux">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Help/django">
+    <entry file="file://$PROJECT_DIR$/Help/Venv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help/git">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100" />
       </provider>
     </entry>
   </component>

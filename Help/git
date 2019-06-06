@@ -3,6 +3,8 @@ git status -s
 
 git log
 
+git add .
+
 
 git rm PROJECTS.md индексація на виделення
 $ git mv стара_назва нова_назва
