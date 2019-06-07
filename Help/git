@@ -15,5 +15,5 @@ $ git checkout develop /перейти на вітку
 $ git checkout -b develop / створити і перейти
 
 $ git checkout master / перехід на мастер
-$ git merge hotfix / злив з вітки hotfix
-$ git branch -d hotfix /Deleted branch hotfix
+$ git merge develop / злив з вітки hotfix
+$ git branch -d develop /Deleted branch hotfix
