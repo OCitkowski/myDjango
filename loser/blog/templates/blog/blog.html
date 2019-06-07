@@ -2,16 +2,28 @@
 
 
 {% block title %}
-    My blog
+    My blogs
 {% endblock %}
 
 {% block content %}
 <h1 class="mb-5">
-    Hello
+    Posts
 </h1>
-{% for name in names %}
-<h6>
-    Hello {{ name }}
-</h6>
+
+{% for post in posts %}
+
+
+<div class="card mb-3">
+  <div class="card-header">
+    {{ post.date_pub}}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <p class="card-text">{{ post.body|truncatewords:15}}</p>
+<!--    <a href="{% url 'post_detail_url' slug=post.slug %}" class="btn btn-light">Read me</a>-->
+      <a href="{{ post.get_absolute_url }}" class="btn btn-light">Read me</a>
+  </div>
+</div>
+
 {% endfor %}
 {% endblock %}
