@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/apps/config.py" description="app_module = import_module(app_name)" line="155" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="76466768-09db-48ec-80a1-8f3d2722c063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Help/Linux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/loser/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/loser/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/loser/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/loser/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/templates/blog/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help/Linux" beforeDir="false" afterPath="$PROJECT_DIR$/Help/Linux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help/Venv" beforeDir="false" afterPath="$PROJECT_DIR$/Help/Venv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help/django" beforeDir="false" afterPath="$PROJECT_DIR$/Help/django" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Help/git" beforeDir="false" afterPath="$PROJECT_DIR$/Help/git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loser/loser/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/loser/loser/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loser/loser/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loser/loser/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,31 +33,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/loser/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Help/git">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/loser/loser/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#629#661#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,10 +79,20 @@
       <list>
         <option value="$PROJECT_DIR$/Venv" />
         <option value="$PROJECT_DIR$/Help/Python" />
+        <option value="$PROJECT_DIR$/Help/git" />
         <option value="$PROJECT_DIR$/Help/Venv" />
         <option value="$PROJECT_DIR$/Help/Linux" />
+        <option value="$PROJECT_DIR$/loser/templates/base.html" />
+        <option value="$PROJECT_DIR$/loser/base/views.py" />
+        <option value="$PROJECT_DIR$/loser/base/urls.py" />
+        <option value="$PROJECT_DIR$/loser/loser/settings.py" />
+        <option value="$PROJECT_DIR$/loser/blog/urls.py" />
         <option value="$PROJECT_DIR$/Help/django" />
-        <option value="$PROJECT_DIR$/Help/git" />
+        <option value="$PROJECT_DIR$/loser/loser/urls.py" />
+        <option value="$PROJECT_DIR$/loser/templates/index.html" />
+        <option value="$PROJECT_DIR$/loser/blog/views.py" />
+        <option value="$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html" />
+        <option value="$PROJECT_DIR$/loser/blog/templates/blog/blog.html" />
       </list>
     </option>
   </component>
@@ -86,6 +114,17 @@
               <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="myDjango" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="loser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="loser" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -93,6 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Help" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -104,6 +144,11 @@
         <option name="myModuleName" value="myDjango" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loser" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559807221485</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Start django">
+      <created>1559808254987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559808254988</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -152,16 +204,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3136574" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298611" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -192,44 +244,31 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First step/&#10;add the django/" />
     <MESSAGE value="Start develop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Start develop." />
+    <MESSAGE value="Start django" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start django" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Venv" />
-    <entry file="file://$PROJECT_DIR$/Help/django">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Help/Python">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Help/Linux">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Help/Venv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loser/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -248,6 +287,103 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help/Venv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help/Linux">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help/Python">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/base/views.py" />
+    <entry file="file://$PROJECT_DIR$/loser/base/apps.py" />
+    <entry file="file://$PROJECT_DIR$/loser/base/urls.py" />
+    <entry file="file://$PROJECT_DIR$/loser/blog/migrations/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/apps/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/loser/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="39" selection-start-line="39" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help/django">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/loser/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

@@ -5,4 +5,8 @@ python -m django --version
 django-admin startproject loser
 ***********************************
 
-python manage.py runserver
+python manage.py runserver 5000
+python manage.py startapp blog
+python manage.py migrate
+
+***********************************
