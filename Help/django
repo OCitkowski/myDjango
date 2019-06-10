@@ -13,3 +13,8 @@ python manage.py migrate
 ***********************************
 
 ./manage.py shell
+
+*****************kill server***************
+ps aux | grep -i manage.py
+//select
+kill -9 <№ proces>

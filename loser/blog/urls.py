@@ -10,3 +10,5 @@ urlpatterns = [
     path('tags/', tags_list, name='tags_list_url'),
     path('tag/<str:slug>/', tag_detail, name='tag_detail_url'),
 ]
+
+

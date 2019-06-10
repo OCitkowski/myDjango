@@ -2,19 +2,19 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/apps/config.py" description="app_module = import_module(app_name)" line="155" />
+    <bookmark url="file://$PROJECT_DIR$/loser/blog/urls.py" description="tag_detail" line="10" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76466768-09db-48ec-80a1-8f3d2722c063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loser/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loser/blog/templates/blog/includes/post_card_template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help/django" beforeDir="false" afterPath="$PROJECT_DIR$/Help/django" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loser/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/loser/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loser/blog/templates/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/loser/blog/templates/blog/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loser/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loser/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loser/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/loser/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loser/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/loser/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,103 +22,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myDjango" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Help/django">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html">
+        <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/includes/post_card_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/post_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loser/loser/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#629#661#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -155,15 +68,16 @@
         <option value="$PROJECT_DIR$/loser/loser/urls.py" />
         <option value="$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html" />
         <option value="$PROJECT_DIR$/Help/git" />
-        <option value="$PROJECT_DIR$/Help/django" />
         <option value="$PROJECT_DIR$/loser/blog/templates/blog/post_detail.html" />
-        <option value="$PROJECT_DIR$/loser/blog/templates/blog/blog.html" />
-        <option value="$PROJECT_DIR$/loser/blog/models.py" />
         <option value="$PROJECT_DIR$/loser/templates/index.html" />
         <option value="$PROJECT_DIR$/loser/blog/urls.py" />
         <option value="$PROJECT_DIR$/loser/blog/views.py" />
-        <option value="$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html" />
         <option value="$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html" />
+        <option value="$PROJECT_DIR$/Help/django" />
+        <option value="$PROJECT_DIR$/loser/blog/templates/blog/blog.html" />
+        <option value="$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html" />
+        <option value="$PROJECT_DIR$/loser/blog/models.py" />
+        <option value="$PROJECT_DIR$/loser/blog/templates/blog/includes/post_card_template.html" />
       </list>
     </option>
   </component>
@@ -177,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,11 +101,6 @@
             <path>
               <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="myDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="Help" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myDjango" type="462c0819:PsiDirectoryNode" />
               <item name="loser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,18 +128,22 @@
               <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="myDjango" type="462c0819:PsiDirectoryNode" />
               <item name="loser" type="462c0819:PsiDirectoryNode" />
-              <item name="loser" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="myDjango" type="462c0819:PsiDirectoryNode" />
               <item name="loser" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="loser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,6 +155,7 @@
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="myDjango" is-module-sdk="true">
+        <option name="useSoftWraps" value="true" />
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="myDjango" />
       </console-settings>
@@ -297,27 +210,43 @@
       <option name="project" value="LOCAL" />
       <updated>1559808254988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="go to home">
+      <created>1559919312973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559919312973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="991" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.24960423" />
+      <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.24960423" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017007" side_tool="true" weight="0.24960423" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31944445" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31944445" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298611" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,7 +318,8 @@
     <MESSAGE value="First step/&#10;add the django/" />
     <MESSAGE value="Start develop." />
     <MESSAGE value="Start django" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start django" />
+    <MESSAGE value="go to home" />
+    <option name="LAST_COMMIT_MESSAGE" value="go to home" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Venv" />
@@ -461,10 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Help/django">
+    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -478,75 +408,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loser/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loser/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/loser/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/loser/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        <state relative-caret-position="90">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help/django">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loser/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="360">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/post_detail.html">
+    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" />
+        <state relative-caret-position="165">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/base_blog.html">
+    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loser/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/tags_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/tag_detail.html">
+    <entry file="file://$PROJECT_DIR$/loser/blog/templates/blog/includes/post_card_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="180">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
         </state>
       </provider>
     </entry>

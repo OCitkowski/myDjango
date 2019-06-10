@@ -17,6 +17,7 @@ def post_detail(reguest, slug):
 def tag_detail(reguest, slug):
 
     tag = Tag.objects.get(slug__iexact=slug)
+    print(tag)
     return render(reguest, 'blog/tag_detail.html', context={'tag':tag} )
 
 def tags_list(request):
