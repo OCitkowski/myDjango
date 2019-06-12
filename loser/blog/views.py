@@ -4,6 +4,7 @@ from .models import Post, Tag
 from django.views.generic import View
 from .utils import *
 from .forms import *
+from django.urls import reverse
 
 
 def post_list(reguest):
@@ -53,6 +54,12 @@ class PostUpdate(ObjectUpdateMixin, View):
 #     tag = Tag.objects.get(slug__iexact=slug)
 #     return render(reguest, 'blog/tag_detail.html', context={'tag':tag} )
 
+class PostDelete(ObjectDeleteMixin, View):
+    model = Post
+    template = 'blog/post_delete_form.html'
+    redirect_url = 'posts_list_urls'
+
+
 class TagDetail(ObjectDetailMixin, View):
     model = Tag
     template = 'blog/tag_detail.html'
@@ -100,3 +107,16 @@ class TagUpdate(ObjectUpdateMixin, View):
 # def tags_list(request):
 #     tags = Tag.objects.all()
 #     return render(request, 'blog/tags_list.html', context={'tags': tags})
+
+class TagDelete(ObjectDeleteMixin, View):
+    model = Tag
+    template = 'blog/tag_delete_form.html'
+    redirect_url = 'tags_list_url'
+    # def get(self, request, slug):
+    #     tag = Tag.objects.get(slug__iexact=slug)
+    #     return render(request, 'blog/tag_delete_form.html', context={'tag': tag})
+    #
+    # def post(self, request, slug):
+    #     tag = Tag.objects.get(slug__iexact=slug)
+    #     tag.delete()
+    #     return redirect(reverse('tags_list_url'))
