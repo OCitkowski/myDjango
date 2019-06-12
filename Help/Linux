@@ -1,5 +1,32 @@
 pwd
-ls
-cd loser
+ls -a -l
+ls 'name_of_my_folder'
 
-clear
+cd loser
+cd ..
+cd ../..
+
+cat requirements.txt
+
+clear  / ctrl l
+
+**************************************************************c
+
+create file
+touch {name,name2,name3}.py
+
+create dir
+mkdir myFolder
+
+***************************************
+mkdir ownFolder && touch {file1,file2}.txt
+***********************
+-copy file
+cp file.txt ../new.txt
+
+******************************
+mv file2.txt f.txt
+mv file2.txt ../f.txt
+************************
+rm name.file
+
