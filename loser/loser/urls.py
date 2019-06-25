@@ -16,14 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.http import HttpResponse
 from django.urls import path, include
+from .views import redirect_blog
 
-
-def hello(reguest):
+def hello(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
 urlpatterns = [
-    path('', hello),
+    # path('', hello),
+
+    # path('admin/logout/', redirect_blog),
+    path('', redirect_blog),
     path('admin/', admin.site.urls),
-    path('blog/', include('blog.urls'))
+    path('blog/', include('blog.urls')),
 ]
 
